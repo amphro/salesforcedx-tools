@@ -1,0 +1,12 @@
+#!/bin/bash
+
+alias dxoc="sfdx force:org:create"
+alias dxoD="sfdx force:org:delete"
+alias dxod="sfdx force:org:display"
+alias dxol="sfdx force:org:list"
+alias dxoo="sfdx force:org:open"
+alias dxsc="sfdx force:source:convert"
+alias dxso="sfdx force:source:open"
+alias dxsP="sfdx force:source:pull"
+alias dxsp="sfdx force:source:push"
+alias dxss="sfdx force:source:status"
