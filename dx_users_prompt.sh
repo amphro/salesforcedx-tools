@@ -18,12 +18,12 @@ function dx_user_prompt_fn {
 
     if [[ $DX_DEVHUB_USER != '' ]]
     then
-        user+=" %{$fg[green]%}hub:(${DX_DEVHUB_USER})%{$reset_color%}"
+        user+=" %{$fg[blue]%}hub:(%{$reset_color%}%{$fg[red]%}${DX_DEVHUB_USER}%{$reset_color%}%{$fg[blue]%})%{$reset_color%}"
     fi
 
     if [[ $DX_USER != '' ]]
     then
-        user+=" %{$fg[green]%}scratch:(${DX_USER})%{$reset_color%}"
+        user+=" %{$fg[blue]%}scratch:(%{$reset_color%}%{$fg[red]%}${DX_USER}%{$reset_color%}%{$fg[blue]%})%{$reset_color%}"
     fi
     
     echo $user
